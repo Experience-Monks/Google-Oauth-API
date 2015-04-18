@@ -1,0 +1,11 @@
+{
+  "name": "google-oauth-api",
+  "version": "0.0.1",
+  "description": "Provides a simple API for Google Ouath via the Google Client API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aaron Morris",
+  "license": "MIT"
+}
