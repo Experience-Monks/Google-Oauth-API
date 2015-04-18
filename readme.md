@@ -7,23 +7,19 @@
 This module provides a simple API for Ouath via the [Google Client API](https://developers.google.com/api-client-library/javascript/dev/dev_jscript).
 
 ## Usage
-###Signin
-```	
-
-		// Get API Credentials from [Google's API Console](https://console.developers.google.com/project)
-        var clientId = '*****************';
-        var apiKey = '*************';
-        var scopes = 'https://www.googleapis.com/auth/analytics';
-		require('google-oauth-api').signin(clientId,apiKey,scopes, onLoginCallback);
+#### Signin
+Get API Credentials from [Google's API Console](https://console.developers.google.com/project)
+```
+var clientId = '*****************';
+var apiKey = '*************';
+var scopes = 'https://www.googleapis.com/auth/analytics';
+require('google-oauth-api').signin(clientId,apiKey,scopes, onLoginCallback);
 
  ```
 
-### Signout
+#### Signout
 ```	
-
-		
-		require('google-oauth-api').signout();
-
+require('google-oauth-api').signout();
  ```
 ## License
 
