@@ -11,6 +11,7 @@ Get API Credentials from [Google's API Console](https://console.developers.googl
 var clientId = '*****************';
 var apiKey = '*************';
 var scopes = 'https://www.googleapis.com/auth/analytics';
+
 require('google-oauth-api').signin(clientId,apiKey,scopes, onLoginCallback);
 
  ```
