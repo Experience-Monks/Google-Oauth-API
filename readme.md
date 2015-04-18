@@ -1,7 +1,5 @@
-<a name="module_Google-Oauth-API"></a>
-#google-oauth-api
-<a name="exp_module_google-oauth-api"></a>
-##module.exports(onComplete) 
+#Google-Oauth-API
+
 
 
 [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
@@ -20,7 +18,7 @@ This module provides a simple API for Ouath via the [Google Client API](https://
 
  ```
 
- ### Signout
+### Signout
 ```	
 
 		
