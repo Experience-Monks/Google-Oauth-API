@@ -11,8 +11,8 @@ This module provides a simple API for Ouath via the [Google Client API](https://
 Get API Credentials from [Google's API Console](https://console.developers.google.com/project)
 ```
 var clientId = '*****************';
-var apiKey = '*************';
-var scopes = 'https://www.googleapis.com/auth/analytics';
+var apiKey   = '*************';
+var scopes   = 'https://www.googleapis.com/auth/analytics';
 require('google-oauth-api').signin(clientId,apiKey,scopes, onLoginCallback);
 
  ```
