@@ -1,7 +1,5 @@
 #Google-Oauth-API
 
-
-
 [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
 
 This module provides a simple API for Ouath via the [Google Client API](https://developers.google.com/api-client-library/javascript/dev/dev_jscript).
