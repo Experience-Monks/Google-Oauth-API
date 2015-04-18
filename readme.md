@@ -4,6 +4,9 @@
 
 This module provides a simple API for Ouath via the [Google Client API](https://developers.google.com/api-client-library/javascript/dev/dev_jscript).
 
+[![NPM](https://nodei.co/npm/google-oauth-api.png?compact=true)](https://nodei.co/npm/google-oauth-api/)
+
+
 ## Usage
 #### Signin
 Get API Credentials from [Google's API Console](https://console.developers.google.com/project)
