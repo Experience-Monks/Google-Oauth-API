@@ -4,7 +4,7 @@ module.exports = {
 
   signin: function (clientId,apiKey,scopes, callback) {
 
-     require( 'google-client-api' )().then( function( gapi ) {
+     require( 'google-client-api' )( function( gapi ) {
       
        gapi.client.setApiKey(apiKey);    
        setTimeout(checkAuth,1);
@@ -32,7 +32,7 @@ module.exports = {
 
   signout: function(){
 
-    require( 'google-client-api' )().then( function( gapi ) {
+    require( 'google-client-api' )( function( gapi ) {
 
      gapi.auth.signOut();
 
