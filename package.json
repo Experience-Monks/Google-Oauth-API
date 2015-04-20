@@ -1,6 +1,6 @@
 {
   "name": "google-oauth-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Provides a simple API for Google Ouath via the Google Client API",
   "main": "index.js",
   "scripts": {
